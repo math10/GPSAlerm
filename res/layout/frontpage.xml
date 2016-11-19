@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gps_alarm"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/sApp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="Start App"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/sAlarm"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:text="Set Alarm"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/aUs"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:text="About Us"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/eXit"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:text="Exit"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/fB"
+        style="@android:style/Animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/images" />
+
+</LinearLayout>
